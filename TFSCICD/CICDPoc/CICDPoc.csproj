@@ -258,8 +258,8 @@
     <Error Condition="!Exists('..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.props'))" />
     <Error Condition="!Exists('..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.targets'))" />
     <Error Condition="!Exists('..\packages\Selenium.WebDriver.4.8.0\build\Selenium.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.4.8.0\build\Selenium.WebDriver.targets'))" />
-    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.109.0.5414.7400\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.109.0.5414.7400\build\Selenium.WebDriver.ChromeDriver.targets'))" />
     <Error Condition="!Exists('..\packages\NUnit.3.13.3\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.13.3\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.110.0.5481.7700\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.110.0.5481.7700\build\Selenium.WebDriver.ChromeDriver.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.NET.Test.Sdk.15.0.0\build\net45\Microsoft.Net.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.15.0.0\build\net45\Microsoft.Net.Test.Sdk.targets')" />
   <Import Project="..\packages\SpecRun.Runner.3.9.31\build\SpecRun.Runner.targets" Condition="Exists('..\packages\SpecRun.Runner.3.9.31\build\SpecRun.Runner.targets')" />
@@ -268,5 +268,5 @@
   <Import Project="..\packages\SpecRun.SpecFlow.3-9-0.3.9.31\build\SpecRun.SpecFlow.3-9-0.targets" Condition="Exists('..\packages\SpecRun.SpecFlow.3-9-0.3.9.31\build\SpecRun.SpecFlow.3-9-0.targets')" />
   <Import Project="..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.targets" Condition="Exists('..\packages\SpecFlow.Plus.LivingDocPlugin.3.9.57\build\SpecFlow.Plus.LivingDocPlugin.targets')" />
   <Import Project="..\packages\Selenium.WebDriver.4.8.0\build\Selenium.WebDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.4.8.0\build\Selenium.WebDriver.targets')" />
-  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.109.0.5414.7400\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.109.0.5414.7400\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.110.0.5481.7700\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.110.0.5481.7700\build\Selenium.WebDriver.ChromeDriver.targets')" />
 </Project>

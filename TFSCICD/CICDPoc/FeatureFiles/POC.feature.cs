@@ -73,14 +73,14 @@ namespace CICDPoc.FeatureFiles
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Google is launched", new string[] {
-                "mytag"}, SourceLine=8)]
+                "mytag"}, SourceLine=7)]
         public virtual void VerifyGoogleIsLaunched()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Google is launched", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 9
+#line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -100,7 +100,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 10
+#line 9
  testRunner.Given("I have launched test site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             }
