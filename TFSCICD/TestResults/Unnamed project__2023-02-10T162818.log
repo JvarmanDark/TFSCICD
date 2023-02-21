@@ -1,0 +1,41 @@
+﻿2023-02-10T16:28:18.7893318+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2023-02-10T16:28:18.7893318+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework clr40 in x86 mode execution started
+2023-02-10T16:28:18.7893318+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\CICDPoc\packages\SpecRun.Runner.3.9.31\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2023-02-10T16:28:18.7893318+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2023-02-10T16:28:18.8342986+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-10T16:28:18.8342986+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\CICDPoc\TestResults" (default)
+2023-02-10T16:28:18.8342986+08:00;VSTestExecutionThread;Info;Profile: 
+2023-02-10T16:28:18.9182961+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\CICDPoc\TestResults\Unnamed project__2023-02-10T162818.log
+2023-02-10T16:28:18.9263000+08:00;Thread#13;Info;Checking activation
+2023-02-10T16:28:19.0102413+08:00;Thread#13;Info;Activated.
+2023-02-10T16:28:19.0102413+08:00;Thread#13;Info;Activation check completed
+2023-02-10T16:28:19.0102413+08:00;Thread#13;Info;Starting test run
+2023-02-10T16:28:19.0883422+08:00;Thread#13;Info;Discovering target: Default
+2023-02-10T16:28:19.0883422+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-10T16:28:19.6000361+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-10T16:28:19.6010361+08:00:Test Suite Dump
+2023-02-10T16:28:19.6030362+08:00:#0: Unnamed project/ - 
+2023-02-10T16:28:19.6030362+08:00:#1: Default - 
+2023-02-10T16:28:19.6030362+08:00:#2: CICDPoc - 
+2023-02-10T16:28:19.6030362+08:00:#3: POC - 
+2023-02-10T16:28:19.6440362+08:00:#4: Verify DecafyLibrary app is installed in site - TestAssembly:CICDPoc/Feature:POC/Scenario:Verify+DecafyLibrary+app+is+installed+in+site
+2023-02-10T16:28:19.6440362+08:00:End: Test Suite Dump
+2023-02-10T16:28:19.6630355+08:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-10T16:28:19.6640363+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2023-02-10T16:28:19.6640363+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-10T16:28:19.6680355+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-10T16:28:19.6680355+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-10T16:28:19.6680355+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-10T16:28:19.6680355+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-10T16:28:19.6690356+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-10T16:28:19.6690356+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2023-02-10T16:28:19.6710356+08:00:Thread #0: creating new test thread executor for CICDPoc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2023-02-10T16:28:19.6730365+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-10T16:28:19.6810365+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-10T16:28:19.6820357+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2023-02-10T16:28:20.1300397+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\LivingDoc.SpecFlowPlugin.dll
+2023-02-10T16:28:20.2840364+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2023-02-10T16:28:20.3000371+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\CICDPoc\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-10T16:28:20.3050386+08:00:Thread#0:T:-> Using default config
+2023-02-10T16:28:20.5740410+08:00:Thread#0: Test #4/0 is started on thread #0
+2023-02-10T16:28:20.6008952+08:00:Thread#0:B:Given I have launched test site

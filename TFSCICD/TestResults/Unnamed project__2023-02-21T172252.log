@@ -1,0 +1,69 @@
+﻿2023-02-21T17:22:52.1740414+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2023-02-21T17:22:52.1740414+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework clr40 in x86 mode execution started
+2023-02-21T17:22:52.1740414+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\TFSCICD\packages\SpecRun.Runner.3.9.31\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2023-02-21T17:22:52.1740414+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2023-02-21T17:22:52.2190416+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-21T17:22:52.2190416+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\TFSCICD\TestResults" (default)
+2023-02-21T17:22:52.2190416+08:00;VSTestExecutionThread;Info;Profile: 
+2023-02-21T17:22:52.2820380+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\TFSCICD\TestResults\Unnamed project__2023-02-21T172252.log
+2023-02-21T17:22:52.2870835+08:00;Thread#13;Info;Checking activation
+2023-02-21T17:22:52.3380403+08:00;Thread#13;Info;Activated.
+2023-02-21T17:22:52.3380403+08:00;Thread#13;Info;Activation check completed
+2023-02-21T17:22:52.3380403+08:00;Thread#13;Info;Starting test run
+2023-02-21T17:22:52.3900410+08:00;Thread#13;Info;Discovering target: Default
+2023-02-21T17:22:52.3900410+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-21T17:22:52.6750410+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-21T17:22:52.6750410+08:00:Test Suite Dump
+2023-02-21T17:22:52.6770382+08:00:#0: Unnamed project/ - 
+2023-02-21T17:22:52.6770382+08:00:#1: Default - 
+2023-02-21T17:22:52.6770382+08:00:#2: CICDPoc - 
+2023-02-21T17:22:52.6770382+08:00:#3: POC - 
+2023-02-21T17:22:52.7050732+08:00:#4: Verify Google is launched - TestAssembly:CICDPoc/Feature:POC/Scenario:Verify+Google+is+launched
+2023-02-21T17:22:52.7050732+08:00:End: Test Suite Dump
+2023-02-21T17:22:52.7210732+08:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-21T17:22:52.7220729+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2023-02-21T17:22:52.7220729+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-21T17:22:52.7250734+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-21T17:22:52.7250734+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-21T17:22:52.7250734+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-21T17:22:52.7250734+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-21T17:22:52.7260401+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-21T17:22:52.7260401+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2023-02-21T17:22:52.7280757+08:00:Thread #0: creating new test thread executor for CICDPoc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2023-02-21T17:22:52.7300859+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-21T17:22:52.7320736+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-21T17:22:52.7330798+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2023-02-21T17:22:53.0480762+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\LivingDoc.SpecFlowPlugin.dll
+2023-02-21T17:22:53.1202159+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2023-02-21T17:22:53.1262159+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\CICDPoc.dll
+2023-02-21T17:22:53.1312158+08:00:Thread#0:T:-> Using default config
+2023-02-21T17:22:53.3592208+08:00:Thread#0: Test #4/0 is started on thread #0
+2023-02-21T17:22:53.3762167+08:00:Thread#0:B:Given I have launched test site
+2023-02-21T17:23:48.0304798+08:00:Thread#0:T:done: POCSteps.GivenIHaveLaunchedTestSite() (54.6s)
+2023-02-21T17:23:48.0364804+08:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-21T17:23:48.0364804+08:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-21T17:23:48.0364804+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2023-02-21T17:23:48.0364804+08:00:Thread#0:Scheduler: No more tests for thread
+2023-02-21T17:23:48.0485166+08:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 54.6882933 seconds
+2023-02-21T17:23:48.0624805+08:00:Thread#0:T:-> LivingDocPlugin: Output generated in: C:\Users\praja\source\repos\TFSCICD\CICDPoc\bin\Debug\TestExecution.json
+2023-02-21T17:23:48.3414802+08:00:Trying to cancel thread
+2023-02-21T17:23:48.3414802+08:00:Thread cancelled
+2023-02-21T17:23:48.3455144+08:00:Thread#-1:Scheduler: get next test for thread -1
+2023-02-21T17:23:48.3465141+08:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-21T17:23:48.3465141+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2023-02-21T17:23:48.3474819+08:00;Thread#13;Info;test run finished
+2023-02-21T17:23:48.3474819+08:00;Thread#13;Info;publishing test results
+2023-02-21T17:23:48.3525148+08:00;Thread#13;Info;test results published
+2023-02-21T17:23:48.3525148+08:00;Thread#13;Info;generating reports
+2023-02-21T17:23:48.4294815+08:00;Thread#13;Info;Starting external report generation process
+2023-02-21T17:23:50.1963184+08:00;Thread#13;Info;Successfully generated reports.
+2023-02-21T17:23:50.1983171+08:00;Thread#13;Info;Successfully generated reports
+2023-02-21T17:23:50.2053157+08:00:Total: 1
+2023-02-21T17:23:50.2063157+08:00:Succeeded: 1
+2023-02-21T17:23:50.2063157+08:00:Ignored: 0
+2023-02-21T17:23:50.2063157+08:00:Pending: 0
+2023-02-21T17:23:50.2063157+08:00:Skipped: 0
+2023-02-21T17:23:50.2073153+08:00:Failed: 0
+2023-02-21T17:23:50.2143171+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2023-02-21T17:23:50.2143171+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\TFSCICD\TestResults\Unnamed project__2023-02-21T172252.html'
+========== End of log file ==========
