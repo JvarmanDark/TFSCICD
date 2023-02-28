@@ -65,7 +65,7 @@ namespace CICDPoc.Steps
         [Then(@"Apple Test Result Is displayed")]
         public void ThenAppleTestResultIsDisplayed()
         {
-            Assert.AreEqual(headerText, "Malaysia");
+            Assert.AreEqual(headerText, "FA Cup");
         }
 
 
