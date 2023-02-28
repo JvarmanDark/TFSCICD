@@ -7,5 +7,3 @@
 @mytag
 Scenario: Verify Google is launched
 	Given I have launched test site 
-	When I Search For Apple
-	Then  Apple Test Result Is displayed

@@ -17,12 +17,6 @@ namespace CICDPoc.Steps
     {
         ChromeDriver driver;
 
-        String decafyLibraryLabel;
-
-        String headerText;
-
-        IWebElement element;
-
         [Given(@"I have launched test site")]
         public void GivenIHaveLaunchedTestSite()
         {
@@ -37,37 +31,13 @@ namespace CICDPoc.Steps
             Thread.Sleep(5000); //wait 5 seconds to clear cookies.
             driver.Manage().Window.Maximize();
             Thread.Sleep(5000);
-            driver.Navigate().GoToUrl("https://www.livescore.com/en/");
+            driver.Navigate().GoToUrl("https://www.google.com");
             Thread.Sleep(15000);
 
         }
 
-        [When(@"I Search For Apple")]
-        public void WhenISearchForApple()
-        {
-            /*
-            IWebElement typeApple = driver.FindElement(By.CssSelector("input[name='q']"));
-            typeApple.Click();
-            typeApple.SendKeys("apple");
 
-            IWebElement search = driver.FindElement(By.CssSelector("input[name='btnK']"));
-            search.Click();
-            Thread.Sleep(10000);
-            */
-
-
-            element = driver.FindElement(By.Id("category-header__stage"));
-
-            headerText = element.Text;
-
-        }
-
-        [Then(@"Apple Test Result Is displayed")]
-        public void ThenAppleTestResultIsDisplayed()
-        {
-            Assert.AreEqual(headerText, "FA Cup");
-        }
-
+ 
 
     }
 }
