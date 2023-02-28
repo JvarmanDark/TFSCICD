@@ -15,7 +15,7 @@ namespace CICDPoc.Steps
     [Binding]
     public class POCSteps
     {
-        IWebDriver driver;
+        ChromeDriver driver;
 
         String decafyLibraryLabel;
 
@@ -28,7 +28,10 @@ namespace CICDPoc.Steps
         {
             //Functions._Login(driver, url);
 
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("--log-level=1");
+            
+            driver = new ChromeDriver(options);
             //Functions._Login(driver, "");
             driver.Manage().Cookies.DeleteAllCookies(); //delete all cookies
             Thread.Sleep(5000); //wait 5 seconds to clear cookies.
